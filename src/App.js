@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import PicList from "./components/PicList";
+import ObjList from "./components/ObjList";
 
 function App() {
   return (
-    <div className="App">
-      <PicList />
+    <div className="App" style={{ backgroundColor: "black" }}>
+      <ObjList />
     </div>
   );
 }
